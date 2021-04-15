@@ -98,13 +98,13 @@ include("partials/nav.php");
                 <div class="text-component">
                     <h1>Disponibilités</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nobis! Vitae quis minus accusantium qui atque? Officiis sunt exercitationem natus, minus sapiente debitis eum animi porro. Ut cupiditate amet expedita!</p>
-                    <div class="calendar-zone">
-                        <div class="calendar-container">
+                    <div class="calendar-zone grid col-12">
+                        <div class="calendar-container col-12 col-5@xl">
                             <div id="prev" class="prev"></div>
                             <div id="next" class="next"></div>
                             <article class="calendar" id="calendar1"></article>
                         </div>
-                        <div class="calendar-container">
+                        <div class="calendar-container col-12 col-5@xl">
                             <div id="prev2" class="prev"></div>
                             <div id="next2" class="next"></div>
                             <article class="calendar" id="calendar2"></article>
