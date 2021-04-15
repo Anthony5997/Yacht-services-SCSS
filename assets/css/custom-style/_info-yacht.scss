@@ -479,6 +479,22 @@ Usage: codyhouse.co/license
         text-align: center;
         border: black 1px solid;
 
+        .description-text{
+          width: 100%;
+          height: auto;
+
+          h3{
+            font-size: 22px;
+          }
+          h4{
+            font-size: 20px;
+          }
+          p{
+            font-size: 16px;
+            text-align: center;
+          }
+        }
+
         img{
           width: 100%;
         }

@@ -129,7 +129,7 @@ include("partials/nav.php");
                         <?php 
                             for($i=0; $i<6; $i++){
                                 echo '
-                                <div class="card-personal col-12 col-3@lg">
+                                <div class="card-personal col-12 col-3@md">
                                     <div>
                                         <img src="assets/images/capitaine.jpg">
                                     </div>

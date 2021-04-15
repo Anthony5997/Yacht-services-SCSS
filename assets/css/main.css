@@ -12340,6 +12340,20 @@ body,
   text-align: center;
   border: black 1px solid;
 }
+.card-zone .card-personal .description-text {
+  width: 100%;
+  height: auto;
+}
+.card-zone .card-personal .description-text h3 {
+  font-size: 22px;
+}
+.card-zone .card-personal .description-text h4 {
+  font-size: 20px;
+}
+.card-zone .card-personal .description-text p {
+  font-size: 16px;
+  text-align: center;
+}
 .card-zone .card-personal img {
   width: 100%;
 }
