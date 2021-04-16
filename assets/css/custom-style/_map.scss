@@ -21,7 +21,11 @@
     box-shadow: 5px 2px 2px  black;
     position: relative;
 
+    input{
+        margin: 10px;
+    }
     button{
+        margin: 10px;
         background-color: darkorange;
     }
 }
@@ -45,8 +49,6 @@
 }
 
 .filter-selection{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     border: black solid 2px;
     padding: 10px;

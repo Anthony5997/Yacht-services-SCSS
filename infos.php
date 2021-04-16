@@ -56,23 +56,23 @@ include("partials/nav.php");
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit voluptatibus expedita. Laboriosam maxime aut dolorem eum qui nemo! Ea!</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati natus totam assumenda cumque numquam culpa officia, harum vel quibusdam recusandae, blanditiis non quae pariatur? Laborum, animi dolor tempora laboriosam minus nulla sit, hic molestias velit delectus sint aspernatur possimus soluta?</p>
                 </div>
-                <div class="listLogo">
-                    <div class="logo-style col-2">
+                <div class="listLogo grid">
+                    <div class="logo-style col-10 col-2@sm">
                         <p>👥 10</p>
                     </div>
-                    <div class="logo-style col-2">
+                    <div class="logo-style col-10 col-2@sm">
                         <p>🛏️ 10</p>
                     </div>
-                    <div class="logo-style col-2">
+                    <div class="logo-style col-10 col-2@sm">
                         <p>🍴 10</p>
                     </div>
-                    <div class="logo-style col-2">
+                    <div class="logo-style col-10 col-2@sm">
                         <p>⚓ 10</p>
                     </div>
-                    <div class="logo-style col-2">
+                    <div class="logo-style col-10 col-2@sm">
                         <p>💻 10</p>
                     </div>
-                    <div class="logo-style col-2">
+                    <div class="logo-style col-10 col-2@sm">
                         <p>⚙️ 10</p>
                     </div>
                 </div>

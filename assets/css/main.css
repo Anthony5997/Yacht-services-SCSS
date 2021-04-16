@@ -11822,7 +11822,11 @@ Usage: codyhouse.co/license
   box-shadow: 5px 2px 2px black;
   position: relative;
 }
+.map-search input {
+  margin: 10px;
+}
 .map-search button {
+  margin: 10px;
   background-color: darkorange;
 }
 
@@ -11844,8 +11848,6 @@ Usage: codyhouse.co/license
 }
 
 .filter-selection {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   border: black solid 2px;
   padding: 10px;
@@ -12088,7 +12090,6 @@ Usage: codyhouse.co/license
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  margin: 3px;
   margin-top: 10px;
 }
 

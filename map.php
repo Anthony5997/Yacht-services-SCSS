@@ -7,7 +7,7 @@ include("partials/nav.php");
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92299.36306442364!2d7.182777568251079!3d43.70316906751322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0106a852d31%3A0x40819a5fd979a70!2sNice!5e0!3m2!1sfr!2sfr!4v1618304554569!5m2!1sfr!2sfr"  style="border:0;" allowfullscreen="fullscreen" loading="lazy"></iframe>
 </div>
     <div class="map-search col-12">
-        <div class="flex-row">
+        <div class="grid">
             <form action="#"></form>
                 <label for="destination col-12 col-2@sm">Destination</label>
                 <input class="form-control col-12 col-2@sm" id="destination" type="text">
@@ -21,13 +21,13 @@ include("partials/nav.php");
     <div class="search-result">
         <h1>Résultat de votre recherche</h1>
         <a>ou voir tout les yachts disponible</a>
-        <div class="filter-selection">
-            <h3 class="col-12 col-3@sm">Filter <small>la selection</small></h3>
-            <a class="col-12 col-3@sm">Taille du bateau</a>
-            <a class="col-12 col-3@sm">points d'achat</a>
-            <a class="col-12 col-3@sm">Personne à bord</a>
-            <label for="dispo">Disponibilitée</label>
-            <input id="dispo" type="checkbox">
+        <div class="filter-selection grid">
+            <h3 class="col-12 col-2@sm">Filter <small>la selection</small></h3>
+            <a class="col-12 col-2@sm">Taille du bateau</a>
+            <a class="col-12 col-2@sm">points d'achat</a>
+            <a class="col-12 col-2@sm">Personne à bord</a>
+            <label class="col-12 col-2@sm" for="dispo">Disponibilitée</label>
+            <input class="col-12 col-2@sm" id="dispo" type="checkbox">
         </div>
         <div class="article-board grid">
             <div class="articles col-12 col-8@md">
